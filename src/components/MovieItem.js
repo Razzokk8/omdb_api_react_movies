@@ -16,7 +16,7 @@ const MovieItem = ({movie, onSelectMovie}) => {
       <li className="list-group-item">Code: {movie.imdbID}</li>
     </ul>
     <div className='card-footer m-2'>
-      <button onClick={()=> {onSelectMovie(movie)}} type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-sm btn-outline-info text-dark">More Info</button>
+      <button onClick={()=> {onSelectMovie(movie)}} type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-sm btn-outline-info text-dark"><b>More Info</b></button>
     </div>
     
   </div>
