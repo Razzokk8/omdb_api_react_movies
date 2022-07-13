@@ -1,0 +1,42 @@
+.item{
+    background: linear-gradient(to left, silver, rgba(70, 131, 180, 0));
+    border-radius: 3px;
+}
+
+.item > ul > li {
+    font-size: small;
+    background: linear-gradient(to left, rgb(192, 192, 192), rgba(70, 131, 180, 0));
+
+}
+
+.btn-outline-info {
+    padding: 2px 12px;
+}
+img {
+    height: 391px;
+}
+.c-body {
+    margin: 20px;
+    min-height: 75px;
+    max-height: 75px;
+}
+.card-title {
+    color: black;
+    font-size:x-large;
+}
+
+nav {
+    background: linear-gradient(to left, rgb(70, 131, 180), rgba(192, 192, 192, 0));
+}
+.navbar-brand {
+    font-weight: 600;
+}
+.modal-dialog {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer {
+    padding:10px 0px;
+    width: 100%;
+    background: linear-gradient(to left, rgb(70, 131, 180), rgba(192, 192, 192, 0));
+};
